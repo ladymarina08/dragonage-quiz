@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Dragon Age Quiz</title>
+</head>
+<body>
+  <h1>Dragon Age Quiz</h1>
+  <form id="quizForm">
+    <h3>Pergunta 1: Qual é sua prioridade em uma equipe?</h3>
+    <input type="radio" name="q1" value="A" required> Liderança e estratégia<br>
+    <input type="radio" name="q1" value="B"> Proteção e força bruta<br>
+    <input type="radio" name="q1" value="C"> Magia e conhecimento<br>
+    <input type="radio" name="q1" value="D"> Habilidades furtivas e espionagem<br>
+    <input type="radio" name="q1" value="E"> Diplomacia e charme<br>
+
+    <h3>Pergunta 2: Como você resolve conflitos?</h3>
+    <input type="radio" name="q2" value="A" required> Planejo cuidadosamente antes de agir<br>
+    <input type="radio" name="q2" value="B"> Enfrento diretamente, sem medo<br>
+    <input type="radio" name="q2" value="C"> Uso sabedoria e magia para desarmar a situação<br>
+    <input type="radio" name="q2" value="D"> Evito confrontos diretos e ataco nas sombras<br>
+    <input type="radio" name="q2" value="E"> Convenço os outros com palavras<br>
+
+    <h3>Pergunta 3: Qual ambiente você prefere?</h3>
+    <input type="radio" name="q3" value="A" required> Um castelo ou fortaleza<br>
+    <input type="radio" name="q3" value="B"> Campos de batalha ou florestas densas<br>
+    <input type="radio" name="q3" value="C"> Torres de magia ou bibliotecas<br>
+    <input type="radio" name="q3" value="D"> Bairros sombrios ou esconderijos secretos<br>
+    <input type="radio" name="q3" value="E"> Salões nobres e palácios<br>
+
+    <h3>Pergunta 4: Qual é sua maior virtude?</h3>
+    <input type="radio" name="q4" value="A" required> Coragem<br>
+    <input type="radio" name="q4" value="B"> Lealdade<br>
+    <input type="radio" name="q4" value="C"> Sabedoria<br>
+    <input type="radio" name="q4" value="D"> Astúcia<br>
+    <input type="radio" name="q4" value="E"> Carisma<br>
+
+    <h3>Pergunta 5: Como você encara o destino?</h3>
+    <input type="radio" name="q5" value="A" required> Moldo meu próprio destino com escolhas difíceis<br>
+    <input type="radio" name="q5" value="B"> Aceito o que vier, desde que proteja quem amo<br>
+    <input type="radio" name="q5" value="C"> Confio no poder do conhecimento para guiá-lo<br>
+    <input type="radio" name="q5" value="D"> Sempre há um plano para escapar ou vencer<br>
+    <input type="radio" name="q5" value="E"> O destino pode ser influenciado com persuasão<br>
+
+    <button type="button" onclick="calculateResult()">Ver Resultado</button>
+  </form>
+
+  <h2 id="result"></h2>
+
+  <script src="./quiz.js"></script>
+</body>
+</html>
